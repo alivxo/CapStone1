@@ -1,0 +1,15 @@
+All transactions shoudl be read from and saved to a transaction file named transcation.csv
+
+Each transction should be saved as a single line with the following format
+date|time|description|vendor|amount
+2023-04-15|10:13:25|ergonomic keyboard|Amazon|-89.50
+2023-04-15|11:15:00|Invoice 1001 paid|Joe|1500.00
+
+
+Application must include following screens
+1. Home screen
+- user prompt
+1a. "D" Add Deposit- prompt user for the debit information and save it to the CSV file
+1b. "P" Make Payment(Debit)- prompt user for the debt information and save it to the csv file
+1c. "L" Ledger - display the ledger Screen
+1d. "x" - Exit Application
